@@ -1,0 +1,13 @@
+form.dialogContent {
+    margin-top: 85.79px;
+    margin-left: 56px;
+}
+
+.dialogContent > fieldset {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.userName {
+
+}

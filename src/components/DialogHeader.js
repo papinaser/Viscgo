@@ -1,10 +1,9 @@
-class DialogHeader extends React.Component {
-    render() {
-        return (
-            <div className="dialogHeader">
-                <img src={'../assets/logo.svg'}/>
-            </div>
-        )
+import logo from '../assets/logo.svg';
 
-    }
+function DialogHeader() {
+    return (
+        <div className="dialogHeader">
+            <img src={logo} alt={"logo"}/>
+        </div>
+    )
 }

@@ -10,5 +10,6 @@ This is a test project that is written by papinaser for Viscgo App CSM.
     4. pages : react Components that are linked by router (these component made by composition other component).
 4. chnage logo
 5. add DialogHeader Component
+6. add LoginContent Component
 
 
