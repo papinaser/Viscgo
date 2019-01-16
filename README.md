@@ -11,5 +11,5 @@ This is a test project that is written by papinaser for Viscgo App CSM.
 4. chnage logo
 5. add DialogHeader Component
 6. add LoginContent Component
-
+7. add LoginPage Component
 
