@@ -1,13 +1,26 @@
-form.dialogContent {
-    margin-top: 85.79px;
-    margin-left: 56px;
+.dialogContent > form {
+    padding-top: 86px;
+    padding-left: 55px;
+    padding-right: 55px;
+    text-align: center;
 }
 
-.dialogContent > fieldset {
-    border: none;
-    border-bottom: 2px solid black;
+.dialogContent > form > fieldset > * {
+    margin-bottom: 43px;
 }
 
-.userName {
+fieldset {
+    margin-bottom: 20px;
+}
 
+fieldset > * {
+    margin-bottom: 20px;
+}
+
+fieldset.inputes {
+    border-bottom: 1px solid black;
+}
+
+.inputes > input {
+    margin-bottom: 29px !important;
 }

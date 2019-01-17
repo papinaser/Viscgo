@@ -2,9 +2,13 @@
     background-color: #0799D4;
     width: 509.03px;
     height: 167.29px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.dialogHeader img {
+.dialogHeader > img {
     width: 134.07px;
     height: 43.48px;
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "catName": "Organisations",
+    "value": 123
+  },
+  {
+    "catName": "Staff",
+    "value": 10
+  },
+  {
+    "catName": "Patients",
+    "value": 6
+  },
+  {
+    "catName": "Data Logs",
+    "value": 7
+  }
+]

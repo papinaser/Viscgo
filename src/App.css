@@ -1,0 +1,40 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #005792;
+}
+
+fieldset {
+    border: none;
+}
+
+.dialogContent {
+    width: 509.03px;
+    height: 453.26px;
+    background: #F9F9F9;
+}
+
+
+.textBox {
+    background: #FFFFFF;
+    border: solid 1px #DBDBDB;
+    padding: 3px;
+    width: 397.16px;
+    height: 62.91px;
+    color: black;
+    font-size: 19px;
+}
+
+.dialogButton {
+    background: #0799D4;
+    color: #FFFFFF;
+    padding: 3px;
+    text-align: center;
+    horiz-align: center;
+    width: 397.16px;
+    height: 62.91px;
+    display: block;
+}
