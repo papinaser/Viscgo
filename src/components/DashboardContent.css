@@ -5,34 +5,6 @@
     display: flex;
 }
 
-.sideMenu {
-    width: 13%;
-    display: block;
-    padding-top: 75px;
-    background: #0799D4;
-}
-
-.activeMenu {
-    background: #005792;
-}
-
-.activeMenu > p:after {
-    font-weight: bolder;
-    content: ">";
-    display: block;
-    float: right;
-    margin: 0 0 0 10px;
-}
-
-.sideMenu > ul > li {
-    color: #F7F7F7;
-    padding: 15px;
-}
-
-.sideMenu > ul > li > p > img {
-    margin-right: 5px;
-}
-
 .pageContent {
     width: 87%;
     display: block;
@@ -51,30 +23,4 @@
 .pageContent > .currentPage {
     margin-bottom: 50px;
 
-}
-
-.pageContent > .dashboardBoxes {
-    display: block;
-}
-
-.pageContent > .dashboardBoxes > li {
-    display: inline-block;
-    width: 100px;
-    height: 134px;
-    background: #FFFFFF;
-    margin-right: 20px;
-    padding-top: 45px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-}
-
-.pageContent > .dashboardBoxes > li > h2 {
-    color: #005792;
-    margin-bottom: 10px;
-}
-
-.pageContent > .dashboardBoxes > li > hr {
-    border: 2px solid #005792;
-    margin-bottom: 15px;
 }

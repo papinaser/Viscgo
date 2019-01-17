@@ -18,4 +18,16 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 94px;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.dashboardHeader > .profile > ul {
+    display: flex;
+    align-items: center;
+}
+
+.dashboardHeader > .profile > ul > li {
+    display: inline-block;
+    margin-right: 10px;
 }

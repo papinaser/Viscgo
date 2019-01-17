@@ -1,11 +1,29 @@
 import React from "react";
 import "./ResetContent.css"
+import {Redirect} from "react-router-dom";
 
 export class ResetContent extends React.Component {
+    handleSubmit = () => {
+        this.setState(() => ({
+            isEmailValid: true
+        }));
+    };
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            isEmailValid: false,
+        };
+    }
+
     render() {
+        if (this.state.isEmailValid) {
+            return <Redirect to={"/"}/>
+        }
         return (
+
             <article className="dialogContent">
-                <form>
+                <form onSubmit={this.handleSubmit}>
                     <h3>Reset Password
                     </h3>
                     <p>

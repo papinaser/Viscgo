@@ -1,0 +1,27 @@
+.sideMenu {
+    width: 13%;
+    display: block;
+    padding-top: 75px;
+    background: #0799D4;
+}
+
+.activeMenu {
+    background: #005792;
+}
+
+.activeMenu > p:after {
+    font-weight: bolder;
+    content: ">";
+    display: block;
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+.sideMenu > ul > li {
+    color: #F7F7F7;
+    padding: 15px;
+}
+
+.sideMenu > ul > li > p > img {
+    margin-right: 5px;
+}
