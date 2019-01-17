@@ -13,3 +13,4 @@ This is a test project that is written by papinaser for Viscgo App CSM.
 6. add LoginContent Component
 7. add LoginPage Component
 8. add Router Manager File
+9. add and compelete Dashboard Page

@@ -1,5 +1,6 @@
 import React from "react";
 import logo from '../assets/logo.svg';
+import "./DashboardHeader.css";
 
 export class DashboardHeader extends React.Component {
     render() {
@@ -16,3 +17,5 @@ export class DashboardHeader extends React.Component {
         );
     }
 }
+
+export default DashboardHeader;

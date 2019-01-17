@@ -7,6 +7,9 @@
     background: #005792;
 }
 
+ul {
+    list-style-type: none;
+}
 fieldset {
     border: none;
 }
@@ -16,7 +19,6 @@ fieldset {
     height: 453.26px;
     background: #F9F9F9;
 }
-
 
 .textBox {
     background: #FFFFFF;

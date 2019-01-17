@@ -18,7 +18,7 @@ export class LoginContent extends React.Component {
 
     render() {
         if (this.state.isValidUser) {
-            return <Redirect to={"/about"}/>
+            return <Redirect to={"/dashboard"}/>
         }
         return (
             <article className="dialogContent">

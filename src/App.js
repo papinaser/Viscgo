@@ -3,16 +3,16 @@ import {BrowserRouter as Router, Route} from "react-router-dom";
 import {LoginPage} from "./pages/LoginPage";
 import ResetPage from "./pages/ResetPage";
 import "./App.css";
+import DashboardPage from "./pages/DashboardPage";
 
 class App extends Component {
     render() {
-        const About = () => <h2>About</h2>;
         return (
             <Router>
                 <div className="App">
                     <Route path="/" exact component={LoginPage}/>
                     <Route path="/reset" exact component={ResetPage}/>
-                    <Route path="/about/" component={About}/>
+                    <Route path="/dashboard/" component={DashboardPage}/>
                 </div>
             </Router>
         );
